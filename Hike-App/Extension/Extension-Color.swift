@@ -6,3 +6,44 @@
 //
 
 import Foundation
+import SwiftUI
+
+extension Color {
+    static var themaGrayLight: Color {
+        return Color("ColorGrayLight")
+    }
+
+    static var themaGrayMedium: Color {
+        return Color("ColorGrayMedium")
+    }
+
+    static var themaGreenDark: Color {
+        return Color("ColorGreenDark")
+    }
+
+    static var themaGreenLight: Color {
+        return Color("ColorGreenLight")
+    }
+
+    static var themaGreenMedium: Color {
+        return Color("ColorGreenMedium")
+    }
+
+    static var themaIndigoMedium: Color {
+        return Color("ColorIndigoMedium")
+    }
+
+    static var themaSalmonLight: Color {
+        return Color("ColorSalmonLight")
+    }
+
+}
+
+
+
+
+
+
+
+
+

@@ -13,7 +13,7 @@ struct Hike_AppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CardView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
